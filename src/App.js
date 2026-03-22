@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Login from "./Pages/Login";
 import HRDashboard from "./Pages/HRDashboard";
