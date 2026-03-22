@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hr-dashboard/static/css/main.9f9342b6.css",
+    "main.js": "/hr-dashboard/static/js/main.919db259.js",
+    "static/js/453.7d9e1497.chunk.js": "/hr-dashboard/static/js/453.7d9e1497.chunk.js",
+    "index.html": "/hr-dashboard/index.html",
+    "main.9f9342b6.css.map": "/hr-dashboard/static/css/main.9f9342b6.css.map",
+    "main.919db259.js.map": "/hr-dashboard/static/js/main.919db259.js.map",
+    "453.7d9e1497.chunk.js.map": "/hr-dashboard/static/js/453.7d9e1497.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9342b6.css",
+    "static/js/main.919db259.js"
+  ]
+}
