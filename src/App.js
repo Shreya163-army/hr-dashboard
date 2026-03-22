@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import Login from "./Pages/Login";
 import HRDashboard from "./Pages/HRDashboard";
@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Sidebar role={user.role} setUser={setUser} />
 
       <div className="main fade">        
@@ -40,7 +40,7 @@ function App() {
         )}
       </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
