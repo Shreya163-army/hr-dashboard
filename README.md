@@ -1,70 +1,155 @@
-# Getting Started with Create React App
+# 🧑‍💼 HR Dashboard User Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔐 Login
 
-## Available Scripts
+* Use the following credentials:
 
-In the project directory, you can run:
+  * **Username:** hr
+  * **Password:** 123
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🏠 Dashboard Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+After login, you will see:
 
-### `npm test`
+* Employee Management
+* Leave Requests
+* Attendance System
+* Add Employee Form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 👩‍💼 Manage Employees
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ➕ Add Employee
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fill in:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   * Name
+   * Department
+   * Birth Date
+   * Address
+   * Salary
+2. Click **Add Employee**
+3. System will generate:
 
-### `npm run eject`
+   * Username
+   * Password
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👉 Share these credentials with the employee
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 👁️ View Employee
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Click **View** to see:
 
-## Learn More
+  * Username & Password
+  * Department
+  * Payslip
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ✏️ Edit Employee
 
-### Code Splitting
+* Click **Edit**
+* Update details
+* Click **Update**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### ❌ Delete Employee
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Click **Delete**
+* Confirm deletion
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 Leave Management
 
-### Advanced Configuration
+* Employees can apply for leave
+* HR can:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  ✔ Approve
+  ✔ Reject
 
-### Deployment
+👉 Status updates are sent as notifications to employees
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📅 Attendance System
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Mark Attendance
+
+1. Select date
+2. Click:
+
+   * ✅ Present
+   * ❌ Absent
+
+👉 You can mark attendance for any date
+
+---
+
+### View Attendance Page
+
+* Go to **Attendance section**
+* You can:
+
+  * View all records
+  * Filter by employee
+  * Filter by date range
+
+---
+
+### 📊 Attendance Report
+
+* See:
+
+  * Total Present
+  * Total Absent
+
+---
+
+## 🔍 Search Employees
+
+* Use search bar to find employees quickly by name
+
+---
+
+## 🔔 Notifications
+
+* Employees receive notifications when:
+
+  * Leave is approved
+  * Leave is rejected
+
+---
+
+## 💡 Notes
+
+* All data is stored locally (browser storage)
+* Refresh will NOT delete data
+* HR controls the entire system
+
+---
+
+## 🚀 Tips
+
+* Always create employee accounts before login
+* Share credentials securely
+* Use filters for quick data access
+
+---
+
+## 📌 Summary
+
+This system allows HR to:
+
+✔ Manage employees
+✔ Handle leaves
+✔ Track attendance
+✔ View reports
+
+---
